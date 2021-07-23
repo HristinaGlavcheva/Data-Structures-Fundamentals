@@ -1,0 +1,13 @@
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.exe
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.deps.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.runtimeconfig.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.runtimeconfig.dev.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\bin\Debug\netcoreapp3.1\Linear Data Structures.pdb
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.AssemblyInfo.cs
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.pdb
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures\obj\Debug\netcoreapp3.1\Linear Data Structures.genruntimeconfig.cache

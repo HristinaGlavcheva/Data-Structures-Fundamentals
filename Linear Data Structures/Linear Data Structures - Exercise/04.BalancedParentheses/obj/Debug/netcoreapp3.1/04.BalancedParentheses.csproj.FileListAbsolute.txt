@@ -1,0 +1,9 @@
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\bin\Debug\netcoreapp3.1\04.BalancedParentheses.deps.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\bin\Debug\netcoreapp3.1\04.BalancedParentheses.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\bin\Debug\netcoreapp3.1\04.BalancedParentheses.pdb
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.AssemblyInfo.cs
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Exercise\04.BalancedParentheses\obj\Debug\netcoreapp3.1\04.BalancedParentheses.pdb

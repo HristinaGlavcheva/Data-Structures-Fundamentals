@@ -1,0 +1,9 @@
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\bin\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.deps.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\bin\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\bin\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.pdb
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.AssemblyInfo.cs
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem04.SinglyLinkedList\obj\Debug\netcoreapp3.1\Problem04.SinglyLinkedList.pdb

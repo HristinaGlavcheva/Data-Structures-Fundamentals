@@ -1,0 +1,9 @@
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\bin\Debug\netcoreapp3.1\Problem02.Stack.deps.json
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\bin\Debug\netcoreapp3.1\Problem02.Stack.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\bin\Debug\netcoreapp3.1\Problem02.Stack.pdb
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.csproj.AssemblyReference.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.AssemblyInfoInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.AssemblyInfo.cs
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.dll
+C:\Users\pc\source\repos\SoftUni\Data Structures Fundamentals (with C#)\Linear Data Structures\Linear Data Structures - Lab\Problem02.Stack\obj\Debug\netcoreapp3.1\Problem02.Stack.pdb
