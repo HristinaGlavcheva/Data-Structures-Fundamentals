@@ -7,47 +7,124 @@
     public class DoublyLinkedList<T> : IAbstractLinkedList<T>
     {
         private Node<T> head;
+        private Node<T> tail;
 
         public int Count { get; private set; }
 
         public void AddFirst(T item)
         {
-            throw new NotImplementedException();
+            var newNode = new Node<T>(item);
+
+            if (this.Count == 0)
+            {
+                this.head = this.tail = newNode;
+            }
+            else
+            {
+                newNode.Next = this.head;
+                this.head.Previous = newNode;
+                this.head = newNode;
+            }
+
+            this.Count++;
         }
 
         public void AddLast(T item)
         {
-            throw new NotImplementedException();
+            var newNode = new Node<T>(item);
+
+            if (this.Count == 0)
+            {
+                this.head = this.tail = newNode;
+            }
+            else
+            {
+                newNode.Previous = this.tail;
+                this.tail.Next = newNode;
+                this.tail = newNode;
+            }
+
+            this.Count++;
         }
 
         public T GetFirst()
         {
-            throw new NotImplementedException();
+            this.EnsureNotEmpty();
+            
+            return this.head.Item;
         }
 
         public T GetLast()
         {
-            throw new NotImplementedException();
+            this.EnsureNotEmpty();
+
+            return this.tail.Item;
         }
 
         public T RemoveFirst()
         {
-            throw new NotImplementedException();
+            this.EnsureNotEmpty();
+
+            var oldHead = this.head;
+
+            if (this.Count == 1)
+            {
+                this.tail = this.head = null;
+            }
+            else
+            {
+                this.head = this.head.Next;
+                this.head.Previous = null;
+            }
+            
+            this.Count--;
+
+            return oldHead.Item;
         }
 
         public T RemoveLast()
         {
-            throw new NotImplementedException();
+            this.EnsureNotEmpty();
+
+            var oldTail = this.tail;
+
+            if (this.Count == 1)
+            {
+                this.tail = this.head = null;
+            }
+            else
+            {
+                this.tail = this.tail.Previous;
+                this.tail.Next = null;
+            }
+
+            this.Count--;
+
+            return oldTail.Item;
         }
 
         public IEnumerator<T> GetEnumerator()
         {
-            throw new NotImplementedException();
+            var current = this.head;
+
+            while (current != null)
+            {
+                yield return current.Item;
+                current = current.Next;
+            }
         }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return this.GetEnumerator();
+        }
+
+        private void EnsureNotEmpty()
+        {
+            if(this.head == null)
+            {
+                throw new InvalidOperationException("The list is empty!");
+            }
         }
     }
 }
