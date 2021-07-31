@@ -57,7 +57,54 @@
 
         public Tree<T> GetDeepestLeftomostNode()
         {
-            throw new NotImplementedException();
+            var leafNodes = this.GetLeafNodes();
+
+            int maxLevel = 1;
+            var deepestNode = this;
+
+            for (int i = leafNodes.Count - 1; i >= 0; i--)
+            {
+                var currentNode = leafNodes[i];
+                var currentLevel = 1;
+
+                while (leafNodes[i].Parent != null)
+                {
+                    leafNodes[i] = leafNodes[i].Parent;
+                    currentLevel++;
+                }
+
+                if (currentLevel >= maxLevel)
+                {
+                    deepestNode = currentNode;
+                    maxLevel = currentLevel;
+                }
+            }
+
+            return deepestNode;
+        }
+
+        private List<Tree<T>> GetLeafNodes(List<Tree<T>> leafs)
+        {
+            foreach (var child in this.Children)
+            {
+                if (child.Children.Count == 0)
+                {
+                    leafs.Add(child);
+                }
+
+                child.GetLeafNodes(leafs);
+            }
+
+            return leafs;
+        }
+
+        public List<Tree<T>> GetLeafNodes()
+        {
+            List<Tree<T>> leafs = new List<Tree<T>>();
+
+            this.GetLeafNodes(leafs);
+
+            return leafs;
         }
 
         public List<T> GetLeafKeys()
@@ -152,11 +199,11 @@
         {
             foreach (var child in this.Children)
             {
-                if(child.Children.Count > 0)
+                if (child.Children.Count > 0)
                 {
                     this.GetMiddleKeys(middleKeys);
 
-                    if(child.Parent != null)
+                    if (child.Parent != null)
                     {
                         middleKeys.Add(child.Key);
                     }
@@ -168,7 +215,19 @@
 
         public List<T> GetLongestPath()
         {
-            throw new NotImplementedException();
+            var deepestNode = this.GetDeepestLeftomostNode();
+            var parentsList = new List<T>();
+            parentsList.Add(deepestNode.Key);
+
+            while (deepestNode.Parent != null)
+            {
+                parentsList.Add(deepestNode.Parent.Key);
+                deepestNode = deepestNode.Parent;
+            }
+
+            parentsList.Reverse();
+
+            return parentsList;
         }
 
         public List<List<T>> PathsWithGivenSum(int sum)
