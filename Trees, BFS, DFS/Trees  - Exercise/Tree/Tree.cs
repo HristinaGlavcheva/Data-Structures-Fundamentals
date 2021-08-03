@@ -231,12 +231,56 @@
 
         public List<List<T>> PathsWithGivenSum(int sum)
         {
-            throw new NotImplementedException();
+            var leafNodes = this.GetLeafNodes();
+            var pathsWithGivenSum = new List<List<T>>();
+
+            foreach (var leaf in leafNodes)
+            {
+                var currentNode = leaf;
+                int currentSum = 0;
+                var currentPath = new List<T>();
+
+                while (currentNode != null)
+                {
+                    int.TryParse(currentNode.Key.ToString(), out int currentNodeValue);
+                    currentSum += currentNodeValue;
+                    currentPath.Add(currentNode.Key);
+                    currentNode = currentNode.Parent;
+                }
+
+                if (currentSum == sum)
+                {
+                    currentPath.Reverse();
+                    pathsWithGivenSum.Add(currentPath);
+                }
+            }
+
+            return pathsWithGivenSum;
         }
 
         public List<Tree<T>> SubTreesWithGivenSum(int sum)
         {
-            throw new NotImplementedException();
+            var roots = new List<Tree<T>>();
+            this.SubTreeSumDFS(sum, this, roots);
+
+            return roots;
+        }
+
+        private int SubTreeSumDFS(int sum, Tree<T> node, List<Tree<T>> roots)
+        {
+            int currentSum = Convert.ToInt32(node.Key);
+
+            foreach (var child in node.Children)
+            {
+                currentSum += SubTreeSumDFS(sum, child, roots);
+            }
+
+            if (currentSum == sum)
+            {
+                roots.Add(node);
+            }
+
+            return currentSum;
         }
     }
 }
