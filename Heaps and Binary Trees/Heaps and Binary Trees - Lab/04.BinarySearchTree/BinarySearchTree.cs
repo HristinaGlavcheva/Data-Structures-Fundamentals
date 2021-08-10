@@ -11,7 +11,10 @@
 
         public BinarySearchTree(Node<T> root)
         {
-            // TODO: Create copy from root
+            this.Root = root;
+            this.LeftChild = this.Root.LeftChild;
+            this.RightChild = this.Root.RightChild;
+
         }
 
         public Node<T> Root { get; private set; }
@@ -24,17 +27,98 @@
 
         public bool Contains(T element)
         {
-            throw new NotImplementedException();
+            return this.Contains(element, this.Root);
+        }
+
+        private bool Contains(T element, Node<T> currentNode)
+        {
+            if(currentNode == null)
+            {
+                return false;
+            }
+            
+            if (element.CompareTo(currentNode.Value) == 0)
+            {
+                return true;
+            }
+
+            if (element.CompareTo(currentNode.Value) < 0)
+            {
+                return this.Contains(element, currentNode.LeftChild);
+            }
+            else
+            {
+                return this.Contains(element, currentNode.RightChild);
+            }
         }
 
         public void Insert(T element)
         {
-            throw new NotImplementedException();
+            this.Insert(element, this.Root);
+        }
+
+        private void Insert(T element, Node<T> currentNode)
+        {
+            if (element.Equals(currentNode))
+            {
+                return;
+            }
+
+            if (this.Root == null)
+            {
+                this.Root = new Node<T>(element, null, null);
+                return;
+            }
+
+            if (element.CompareTo(currentNode.Value) < 0)
+            {
+                if (currentNode.LeftChild != null)
+                {
+                    this.Insert(element, currentNode.LeftChild);
+                    return;
+                }
+
+                currentNode.LeftChild = new Node<T>(element, null, null);
+            }
+            else
+            {
+                if (currentNode.RightChild != null)
+                {
+                    this.Insert(element, currentNode.RightChild);
+                    return;
+                }
+
+                currentNode.RightChild = new Node<T>(element, null, null);
+            }
         }
 
         public IAbstractBinarySearchTree<T> Search(T element)
         {
-            throw new NotImplementedException();
+            Node<T> searchedNode = this.Search(element, this.Root);
+
+            return new BinarySearchTree<T>(searchedNode);
+        }
+
+        private Node<T> Search(T element, Node<T> currentNode)
+        {
+            if(currentNode == null)
+            {
+                return null;
+            }
+
+            if (element.Equals(currentNode.Value))
+            {
+                return currentNode;
+            }
+
+            if (element.CompareTo(currentNode.Value) < 0)
+            {
+                return this.Search(element, currentNode.LeftChild);
+            }
+            else
+            {
+                return this.Search(element, currentNode.RightChild);
+            }
         }
     }
 }
